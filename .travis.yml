@@ -16,7 +16,7 @@ before_install:
 
 install:
   - sudo groupadd libvirt
-  - loginctl terminate-user $USER
+  - loginctl terminate-user `$USER`
 
 before_script:
 #  - virt-host-validate
