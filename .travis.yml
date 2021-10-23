@@ -13,9 +13,9 @@ before_install:
   - sudo apt-get update
   - sudo apt-get remove docker docker-ce docker-engine docker.io containerd runc
   - sudo apt-get -y install conntrack qemu-kvm libvirt-bin
-#  - virt-host-validate
 
 before_script:
+#  - virt-host-validate
   - curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.32.2/bin/linux/amd64/kubectl
   - chmod +x kubectl && sudo mv kubectl /usr/local/bin/
   - curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
