@@ -6,8 +6,6 @@ language: java
 jdk:
   - openjdk11
 
-install: skip
-
 env:
   - CHANGE_MINIKUBE_NONE_USER=true
 
