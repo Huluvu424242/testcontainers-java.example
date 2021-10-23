@@ -1,0 +1,13 @@
+language: java
+
+
+jdk:
+  - openjdk11
+
+install: skip
+
+script:
+  - chmod +x *.sh
+  - ./mvnw.sh clean install
+
+after_success:
