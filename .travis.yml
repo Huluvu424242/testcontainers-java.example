@@ -11,7 +11,8 @@ env:
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get -y install conntrack
+  - sudo apt-get -y install conntrack podman
+  - sudo apt-get -y purge docker-compose docker.io
 
 before_script:
   - curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.32.2/bin/linux/amd64/kubectl
