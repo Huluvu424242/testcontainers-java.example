@@ -16,4 +16,6 @@ jobs:
     - name: Build with Maven
       run: |
         chmod +x ./*.sh
+        docker version
+        docker ps
         ./mvnw.sh -B clean install --file pom.xml
