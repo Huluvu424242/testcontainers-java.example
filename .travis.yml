@@ -13,7 +13,7 @@ before_install:
   - sudo apt-get update
   - sudo apt-get remove docker docker-ce docker-engine docker.io containerd runc
   - sudo apt-get -y install conntrack qemu-kvm libvirt-bin
-  - virt-host-validate
+#  - virt-host-validate
 
 before_script:
   - curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.32.2/bin/linux/amd64/kubectl
