@@ -17,7 +17,7 @@ before_install:
 install:
   - sudo groupadd libvirt
 #  - loginctl terminate-user travis
-  - sudo -i travis
+  - su -l travis
 
 before_script:
 #  - virt-host-validate
