@@ -1,4 +1,4 @@
-[![Build Status](https://app.travis-ci.com/Huluvu424242/testcontainer-java.example.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/testcontainer-java.example)
+[![Build Status](https://app.travis-ci.com/Huluvu424242/testcontainers-java.example.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/testcontainers-java.example)
 
 # testcontainers-java.example
 
