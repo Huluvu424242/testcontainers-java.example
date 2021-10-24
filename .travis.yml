@@ -1,7 +1,7 @@
 os: windows
 
 #language: java
-
+language: bash
 
 #jdk:
 #  - openjdk11
